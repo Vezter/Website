@@ -1,3 +1,11 @@
 # Website
 
-This repository will be used a playground to play around with a setup of website and the components which can be part of the a website.
+This repository now contains a minimal Next.js app for the community website project.
+
+## Run locally
+
+1. npm install
+2. npm run dev
+
+The app will be available at http://localhost:3000
+
