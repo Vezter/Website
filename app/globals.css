@@ -5,12 +5,12 @@
 @tailwind utilities;
 
 :root{
-  --bg-900: #071023;
-  --bg-800: #0b1220;
-  --surface: rgba(255,255,255,0.03);
-  --muted: rgba(229,238,251,0.7);
-  --accent: #ffd166;
-  --accent-2: #ef476f;
+  --bg-900: #fbf4e8;
+  --bg-800: #f6ede4;
+  --surface: rgba(255,255,255,0.92);
+  --muted: #342f28;
+  --accent: #dba95c;
+  --accent-2: #c25d5a;
   --max-width: 1000px;
 }
 
