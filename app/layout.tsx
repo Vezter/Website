@@ -1,4 +1,5 @@
 import './globals.css';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Community Website',
@@ -11,13 +12,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-[var(--bg-900)] text-slate-900 antialiased">
         <nav className="sticky top-0 z-50 border-b border-slate-300/40 bg-white/80 backdrop-blur-xl shadow-sm">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-6 py-3 sm:px-8">
-            <a className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-900" href="/">VÆNGET</a>
+            <Link className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-900" href="/">VÆNGET</Link>
 
             <div className="hidden items-center gap-4 sm:flex">
-              <a className="text-sm uppercase font-semibold tracking-wide text-slate-700 transition hover:text-slate-900" href="/#discover">Opdag</a>
+              <Link className="text-sm uppercase font-semibold tracking-wide text-slate-700 transition hover:text-slate-900" href="/#discover">Opdag</Link>
             </div>
 
-            <a className="rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-slate-950 shadow-sm shadow-[rgba(0,0,0,0.08)] transition hover:bg-[#d9a34c]" href="/contact">Kontakt</a>
+            <Link className="rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-slate-950 shadow-sm shadow-[rgba(0,0,0,0.08)] transition hover:bg-[#d9a34c]" href="/contact">Kontakt</Link>
           </div>
         </nav>
 
@@ -43,8 +44,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <span className="rounded-full border border-slate-300 bg-slate-100 px-4 py-2 text-xs uppercase tracking-[0.24em] text-slate-700">Private haver</span>
                   </div>
                   <div className="flex gap-3">
-                    <a className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-slate-950 shadow-sm shadow-[rgba(0,0,0,0.08)] transition hover:bg-[#d9a34c]" href="/#discover">Læs mere</a>
-                    <a className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-slate-500" href="/contact">Kontakt</a>
+                    <Link className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-slate-950 shadow-sm shadow-[rgba(0,0,0,0.08)] transition hover:bg-[#d9a34c]" href="/#discover">Læs mere</Link>
+                    <Link className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-slate-500" href="/contact">Kontakt</Link>
                   </div>
                 </div>
               </div>
