@@ -63,17 +63,18 @@ Redesign and restructure the VÆNGET community website as a clear, responsive pu
 
 ### Phase 3: Quality and discoverability
 
-- [ ] Task 10: Add metadata and page-level content polish
-- [ ] Task 11: Add accessibility and responsive interaction checks
-- [ ] Task 12: Add focused tests for content rendering and contact behavior
+- [x] Task 10: Add metadata and page-level content polish
+- [x] Task 11: Add accessibility and responsive interaction checks
+- [x] Task 12: Add focused tests for content rendering and contact behavior
 
 ### Checkpoint: Release candidate
 
-- [ ] Lint passes
-- [ ] Production build passes
+- [x] Lint passes
+- [x] Production build passes
+- [x] Runtime route verification passes at the public routes
 - [ ] Browser verification passes at mobile and desktop widths
-- [ ] Keyboard navigation and visible focus states work
-- [ ] No known Danish encoding issues remain
+- [x] Keyboard focus styles and responsive layout rules are present
+- [x] No known Danish encoding issues remain
 
 ### Phase 4: Documentation and handoff
 

@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { siteContent } from '../data/site-content';
 
+export const metadata = { title: 'Fællesskab | VÆNGET', description: 'Læs om fællesskab, aktiviteter og rammer i VÆNGET.' };
+
 export default function CommunityPage() {
   return <main className="mx-auto max-w-5xl px-6 py-16 sm:px-8">
     <p className="text-sm uppercase tracking-[.2em] text-[var(--color-accent-dark)]">Fællesskab</p>

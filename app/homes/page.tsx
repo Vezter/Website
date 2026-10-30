@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { siteContent } from '../data/site-content';
 
+export const metadata = { title: 'Boliger | VÆNGET', description: 'Se boligtyper, priser og husleje i VÆNGET.' };
+
 export default function HomesPage() {
   return <main className="mx-auto max-w-6xl px-6 py-16 sm:px-8">
     <p className="text-sm uppercase tracking-[.2em] text-[var(--color-accent-dark)]">Boliger</p>
