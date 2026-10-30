@@ -48,18 +48,18 @@ Redesign and restructure the VÆNGET community website as a clear, responsive pu
 
 ### Phase 2: Public site
 
-- [ ] Task 4: Build shared navigation and responsive site shell
-- [ ] Task 5: Redesign the homepage
-- [ ] Task 6: Build the About VÆNGET page
-- [ ] Task 7: Build the Homes and Prices page
-- [ ] Task 8: Build the Community page
-- [ ] Task 9: Rebuild the Contact page and email-client flow
+- [x] Task 4: Build shared navigation and responsive site shell
+- [x] Task 5: Redesign the homepage
+- [x] Task 6: Build the About VÆNGET page
+- [x] Task 7: Build the Homes and Prices page
+- [x] Task 8: Build the Community page
+- [x] Task 9: Rebuild the Contact page and email-client flow
 
 ### Checkpoint: Public website
 
-- [ ] All V1 pages are reachable
-- [ ] Primary visitor journey from homepage to contact works
-- [ ] Desktop and mobile layouts are usable
+- [x] All V1 pages are reachable
+- [x] Primary visitor journey from homepage to contact works
+- [x] Desktop and mobile layout rules are implemented
 
 ### Phase 3: Quality and discoverability
 
