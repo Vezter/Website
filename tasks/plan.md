@@ -78,14 +78,15 @@ Redesign and restructure the VÆNGET community website as a clear, responsive pu
 
 ### Phase 4: Documentation and handoff
 
-- [ ] Task 13: Document the content structure and future CMS migration path
-- [ ] Task 14: Review the implementation for unnecessary complexity and V1 scope drift
+- [x] Task 13: Document the content structure and future CMS migration path
+- [x] Task 14: Review the implementation for unnecessary complexity and V1 scope drift
 
 ### Checkpoint: V1 complete
 
-- [ ] All V1 acceptance criteria are met
-- [ ] Verification evidence is recorded
-- [ ] Future admin/content-management work is documented separately
+- [x] All implementable V1 acceptance criteria are met
+- [x] Verification evidence is recorded
+- [x] Future admin/content-management work is documented separately
+- [ ] Browser visual verification remains pending
 
 ## Risks and mitigations
 
